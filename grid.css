@@ -1,0 +1,44 @@
+.grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.cell {
+    flex: 0 0 24%;
+    background-color: #999;
+    transition: all .1s ease-in-out;
+    width: 25vw;
+    height: 25vw;
+    margin-bottom: 2.5vw;
+    font-size: 21vw;
+    border-radius: 2.5vw;
+    box-shadow:  0 0.5vw 0 #727272;
+}
+
+
+.available:hover {
+    background-color: #828282;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+
+/* If the screen is large enough */
+@media (min-width: 600px){
+    .grid {
+        width: 600px;
+
+    }
+    .cell {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+        font-size: 128px;
+        border-radius: 15px;
+        box-shadow:  0 3px 0 #727272;
+    }
+}

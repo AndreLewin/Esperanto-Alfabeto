@@ -1,0 +1,81 @@
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* CSS reset */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	/* Image from http://subtlepatterns.com */
+    background: url('http://subtlepatterns.com/patterns/congruent_pentagon.png');
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    color: #373737;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.main {
+    display: block;
+    border: none;
+    border-radius: .3em;
+    font-size: 30px;
+    color: #000000;
+    transition: all .1s ease-in-out;
+    margin: 30px;
+}
+
+
+/* Keep the buttons together */
+#buttons {
+    display: inline-block;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: .5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    transition: all .1s ease-in-out;
+}
+
+.button:active {;
+    transform: translate(0px, 2px);
+}
+
+.display {
+    border-radius: .2em;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Button color */
+.yellow {
+    background-color: #e0ad5c;
+    border-bottom: 8px solid #c18f49;
+}
+.yellow:hover {
+    background-color: #CEA250;
+    border-bottom: 8px solid #a57e35;
+}
+.red {
+    background-color: #E74C3C;
+    border-bottom: 8px solid #BD3E31;
+}
+.red:hover {
+    background-color: #db4436;
+    border-bottom: 8px solid #ba382c;
+}
+.green {
+    background-color: #82BF56;
+    border-bottom: 8px solid #82BF56;
+}
