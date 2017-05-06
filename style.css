@@ -31,7 +31,6 @@ h1 {
     margin: 30px;
 }
 
-
 /* Keep the buttons together */
 #buttons {
     display: inline-block;
@@ -56,7 +55,22 @@ h1 {
     padding: 0px 5px 0px 5px;
 }
 
-
+/* Glows */
+.blue-glow {
+    outline: none;
+    border-color: #93bcdd;
+    box-shadow: 0 5px 5px #92bbdb;
+}
+.gold-glow {
+    outline: none;
+    border-color: #e5e138;
+    box-shadow: 0 0px 5px #e5e138;
+}
+.red-glow {
+    outline: none;
+    border-color: #E74C3C;
+    box-shadow: 0 0px 5px #E74C3C;
+}
 
 /* Button color */
 .yellow {
@@ -78,4 +92,8 @@ h1 {
 .green {
     background-color: #82BF56;
     border-bottom: 8px solid #82BF56;
+}
+.gold {
+    background-color: #e5e138;
+    border-bottom: 8px solid #e5e138;
 }

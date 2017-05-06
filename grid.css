@@ -7,16 +7,15 @@
 
 .cell {
     flex: 0 0 24%;
-    background-color: #999;
+    background-color: #aeaeae;
     transition: all .1s ease-in-out;
     width: 25vw;
     height: 25vw;
     margin-bottom: 2.5vw;
-    font-size: 21vw;
+    font-size: 15vw;
     border-radius: 2.5vw;
-    box-shadow:  0 0.5vw 0 #727272;
+    box-shadow:  0 0.5vw 0 #696969;
 }
-
 
 .available:hover {
     background-color: #828282;
@@ -26,6 +25,10 @@
     opacity: 0.5;
 }
 
+.blued {
+    background-color: #63d7d5;
+    box-shadow:  0 0.5vw 0 #54b4b2;
+}
 
 /* If the screen is large enough */
 @media (min-width: 600px){
@@ -37,8 +40,11 @@
         width: 150px;
         height: 150px;
         margin-bottom: 15px;
-        font-size: 128px;
+        font-size: 96px;
         border-radius: 15px;
-        box-shadow:  0 3px 0 #727272;
+        box-shadow:  0 3px 0 #696969;
+    }
+    .blued {
+        box-shadow: 0 3px 0 #54b4b2;
     }
 }
